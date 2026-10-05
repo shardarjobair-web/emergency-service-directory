@@ -36,3 +36,8 @@ To create and insert a new element into the DOM, follow these steps:
 ### 5. What is the difference between preventDefault() and stopPropagation() methods?
 * **`preventDefault()`**: Stops the browser's default default action associated with an event. For example, it prevents a form from submitting and reloading the page, or stops a link (`<a>`) from navigating to another URL.
 * **`stopPropagation()`**: Stops the event from bubbling up the DOM tree, preventing parent elements from receiving notification of the event.
+
+
+
+## Live Preview Link
+👉 [Live Preview Link](https://shardarjobair-web.github.io/emergency-service-directory/)
