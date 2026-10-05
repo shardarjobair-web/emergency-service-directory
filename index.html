@@ -25,37 +25,36 @@
 
     <!-- Navbar Section -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
-      <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
+      <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center px-3 sm:px-4 py-3 gap-2">
         
         <!-- বাম পাশ: লোগো ও টাইটেল -->
-        <div class="flex items-center gap-3">
-          <img src="./assets/logo.png" class="h-10" alt="Logo" />
-          <h1 class="font-bold text-lg text-gray-800 leading-tight text-green-600">
+        <div class="flex items-center gap-2 sm:gap-3">
+          <img src="./assets/logo.png" class="h-8 sm:h-10" alt="Logo" />
+          <h1 class="font-bold text-base sm:text-lg text-gray-800 leading-tight text-green-600">
             Emergency <br/>Service
           </h1>
         </div>
 
-        <!-- ডান পাশ: স্ট্যাটস (হার্ট, কয়েন এবং কপি কাউন্ট) -->
-        <div class="flex items-center gap-3">
+        <!-- ডান পাশ: স্ট্যাটস (হার্ট, কয়েন এবং কপি কাউন্ট) -->
+        <div class="flex items-center gap-1.5 sm:gap-3">
           <!-- হার্ট কাউন্ট -->
-          <div class="flex items-center gap-1.5 bg-red-50 px-3 py-1.5 rounded-full border border-red-100">
+          <div class="flex items-center gap-1 bg-red-50 px-2 sm:px-3 py-1.5 rounded-full border border-red-100 text-xs sm:text-sm">
             <span id="heart-count" class="font-bold text-gray-700">0</span>
-            <img src="./assets/heart.png" class="h-4 w-4" alt="Heart" />
+            <img src="./assets/heart.png" class="h-3.5 sm:h-4 w-3.5 sm:w-4" alt="Heart" />
           </div>
-          <!-- কয়েন কাউন্ট -->
-          <div class="flex items-center gap-1.5 bg-amber-50 px-3 py-1.5 rounded-full border border-amber-100">
+          <!-- কয়েন কাউন্ট -->
+          <div class="flex items-center gap-1 bg-amber-50 px-2 sm:px-3 py-1.5 rounded-full border border-amber-100 text-xs sm:text-sm">
             <span id="coin-count" class="font-bold text-gray-700">100</span>
-            <img src="./assets/coin.png" class="h-4 w-4" alt="Coin" />
+            <img src="./assets/coin.png" class="h-3.5 sm:h-4 w-3.5 sm:w-4" alt="Coin" />
           </div>
           <!-- কপি কাউন্ট বাটন -->
-          <button id="nav-copy-btn" class="bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold px-4 py-1.5 rounded-full transition">
+          <button id="nav-copy-btn" class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-semibold px-3 sm:px-4 py-1.5 rounded-full transition">
             <span id="copy-count">0</span> Copy
           </button>
         </div>
 
       </div>
     </header>
-
     <!-- Hero Section -->
     <section class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-green-950 text-white py-10 px-4 text-center overflow-x-auto">
       <div class="max-w-5xl mx-auto flex flex-col items-center">
@@ -66,8 +65,8 @@
         <h2 class="text-3xl md:text-4xl font-bold mb-3">Emergency Service Directory</h2>
         
         <!-- স্লোগান (এক লাইনে থাকার জন্য max-w-full এবং text সাইজ অ্যাডজাস্ট করা হয়েছে) -->
-        <p class="text-xs md:text-sm text-gray-200 tracking-wide whitespace-nowrap">
-          Government Emergency Services at Your Fingertip – A Project by Government of the People's Republic of Bangladesh
+        <p class="text-xs sm:text-sm md:text-base text-gray-200 text-center px-4 mt-2 leading-relaxed">
+        Government Emergency Services at Your Fingertip – A Project by Government of the People's Republic of Bangladesh
         </p>
       </div>
     </section>
